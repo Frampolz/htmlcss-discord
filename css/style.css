@@ -128,23 +128,23 @@ a.btn.dark:focus {
 /* /header */
 
 /* main */
-section {
+.main-section {
     height: 600px;
 }
 
-section .width60 {
+.width60 {
     width: 60%;
     height: 100%;
     position: relative;
 }
 
-section .width40 {
+.width40 {
     width: 40%;
     height: 100%; 
     position: relative;
 }
 
-section .width60 img {
+.width60 img {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -153,7 +153,7 @@ section .width60 img {
 
 .section-text {
     width: 44%;
-    color: #23272a
+    color: #23272a;
     
 }
 
@@ -180,4 +180,67 @@ section .width60 img {
 
 .section-text p {
    font-size: 1.2em;
+}
+
+.bottom-section {
+    height: 1000px;
+    position: relative;
+}
+
+.section-img, .description {
+    width: 50%;
+    margin: 0 auto;
+    color: #23272a;
+}
+
+.description {
+    padding-top: 10%;
+    text-align: center;
+}
+
+.description h2{
+    font-size: 2.4em;
+    font-weight: 800;
+
+}
+
+.description p {
+    font-size: 1.2em;
+}
+
+.section-img img {
+    width: 100%;
+}
+
+.row {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+}
+
+.sparkle {
+    /* position: absolute;
+    top: 0; */
+   
+}
+
+.section-btn {
+    margin-top: 40px;
+}
+
+.section-btn a {
+    display: inline-block;
+    background-color: #5865f2;
+    border-radius: 2em;
+    padding: 1px 14px;
+    line-height: 2em;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+
+}
+
+.section-btn a:hover {
+    color: black;
 }
