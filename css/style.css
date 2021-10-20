@@ -17,7 +17,7 @@ html {
 }
 /* /General Section */
 
-
+/* header */
 header {
     background-image: url(../img/jumbo.png);
     width: 100%;
@@ -35,16 +35,17 @@ nav {
 
 .float {
     float: left;
-    height: 100%;
 }
 
 nav .float:first-child,
 nav .float:last-child {
     width: 25%;
+    height: 100%;
 }
 
 nav .float:nth-child(2) {
     width: 50%;
+    height: 100%;
 }
 
 .logo {
@@ -123,4 +124,60 @@ a.btn.dark:hover,
 a.btn.dark:active,
 a.btn.dark:focus {
     color: #265ee8;
+}
+/* /header */
+
+/* main */
+section {
+    height: 600px;
+}
+
+section .width60 {
+    width: 60%;
+    height: 100%;
+    position: relative;
+}
+
+section .width40 {
+    width: 40%;
+    height: 100%; 
+    position: relative;
+}
+
+section .width60 img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.section-text {
+    width: 44%;
+    color: #23272a
+    
+}
+
+.left-text{
+    position: absolute;
+    top: 17%;
+    left: 0;
+
+}
+
+.right-text {
+    position: absolute;
+    top: 17%;
+    right: 0;
+    
+}
+
+.section-text h2 {
+    font-size: 2.5em;
+    font-weight: 800;
+    margin-bottom: 1pc;
+}
+
+
+.section-text p {
+   font-size: 1.2em;
 }
