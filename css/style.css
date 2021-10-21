@@ -187,7 +187,7 @@ a.btn.dark:focus {
 }
 
 .bottom-section {
-    height: 1050px;
+    height: 1150px;
     position: relative;
 }
 
@@ -238,6 +238,7 @@ a.btn.dark:focus {
 
 .section-btn {
     margin-top: 40px;
+   
 }
 
 .section-btn a {
@@ -261,15 +262,14 @@ a.btn.dark:focus {
 footer {
     background-color: #23272a;
     height: 500px;
-    margin-top: 15pc;
     color: white;
 }
 
 .row-footer {
     width: 70%;
-    /* background-color: red; */
     height: 100%;
     margin: 0 auto;
+    padding-top: 4pc;
 }
 
 .footer-col {
@@ -278,7 +278,14 @@ footer {
 }
 
 .footer-col h3 {
+    width: 60%;
     color: #5865F2;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.language {
+    padding: 1em 0;
 }
 
 .language>img {
@@ -289,4 +296,45 @@ footer {
 
 .ita {
     display: inline;
+    font-weight: bold;
+}
+
+.language>span {
+    font-weight: bold;
+}
+
+.social a {
+    padding-right: 1em;
+
+}
+
+.title-list {
+    color: #5865f2;
+    font-weight: bold;
+}
+
+.footer-list {
+    list-style-type: none;
+    margin-right: 6em;
+}
+
+.footer-list li {
+    margin-top: 10px;
+}
+
+.footer-list li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footer-list a:hover,
+.footer-list a:active,
+.footer-list a:focus {
+    text-decoration: underline;
+}
+.social img {
+    background-color: white;
+    border-radius: 50%;
+   
 }
