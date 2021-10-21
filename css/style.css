@@ -90,6 +90,8 @@ a.btn {
 
 a.btn:hover {
     color: #265ee8;
+    box-shadow: 3px 4px 6px rgba(0, 0, 0, 0.3);
+    transition: 0.2s;
 }
 
 /* jumbo */
@@ -123,7 +125,9 @@ a.btn.dark{
 a.btn.dark:hover,
 a.btn.dark:active,
 a.btn.dark:focus {
-    color: #265ee8;
+    background-color: rgb(75, 82, 150);
+    box-shadow: 3px 4px 6px rgba(0, 0, 0, 0.3);
+    transition: 0.2s;
 }
 /* /header */
 
@@ -245,7 +249,7 @@ a.btn.dark:focus {
     display: inline-block;
     background-color: #5865f2;
     border-radius: 2em;
-    padding: 1px 14px;
+    padding: 16px 32px;
     line-height: 2em;
     text-decoration: none;
     font-weight: bold;
@@ -254,22 +258,25 @@ a.btn.dark:focus {
 }
 
 .section-btn a:hover {
-    color: black;
+    background-color: rgba(88, 101, 242, 0.8);
+    box-shadow: 3px 4px 6px rgba(103, 128, 159, 0.5);
+    transition: 0.2s;
 }
 /* main */
 
 /* footer */
 footer {
     background-color: #23272a;
-    height: 500px;
+    height: 550px;
     color: white;
 }
 
 .row-footer {
-    width: 70%;
-    height: 100%;
+    width: 65%;
+    height: 70%;
     margin: 0 auto;
     padding-top: 4pc;
+    border-bottom: 1px solid #5865F2;
 }
 
 .footer-col {
@@ -338,3 +345,39 @@ footer {
     border-radius: 50%;
    
 }
+
+.footer-btn {
+    width: 65%;
+    margin: 0 auto;
+    height: 60px;
+    line-height: 60px;
+    padding-top: 1em;
+ }
+
+ .footer-logo, .footer-reg {
+     width: 50%;
+     height: 100%;
+ }
+
+ .footer-reg {
+     text-align: right;
+ }
+
+ .footer-reg a {
+    display: inline-block;
+    background-color: #5865f2;
+    border-radius: 2em;
+    padding: 1px 14px;
+    line-height: 2em;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    text-align: right;
+
+ }
+
+ .footer-reg a:hover {
+     background-color: rgb(122, 134, 244);
+     box-shadow: 3px 4px 6px rgba(0, 0, 0, 0.3);
+     transition: 0.2s;
+ }
